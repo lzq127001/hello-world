@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T14:49:00.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="G-27-Y_PqZBYBEYj4jQY" version="17.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-04-16T15:01:53.673Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="AS6IYaVlnk6GS76IKXJV" version="17.4.5" type="github" pages="2">
   <diagram id="lBrn-12LnoMCUyOBAwMA" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,10 +122,68 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cTzGasryVQbu4wW7Hmiv" name="Page-2">
-    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HU1uw2GbBHFj7PU4o401-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="HU1uw2GbBHFj7PU4o401-1" target="HU1uw2GbBHFj7PU4o401-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-11" value="1，用户发起请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HU1uw2GbBHFj7PU4o401-10">
+          <mxGeometry x="-0.2496" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="50" y="110" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="HU1uw2GbBHFj7PU4o401-3" target="HU1uw2GbBHFj7PU4o401-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-13" value="2，浏览器发起 HTTP 请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HU1uw2GbBHFj7PU4o401-12">
+          <mxGeometry x="-0.344" y="3" relative="1" as="geometry">
+            <mxPoint x="51" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-3" value="浏览器" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="310" y="25" width="120" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HU1uw2GbBHFj7PU4o401-5" target="HU1uw2GbBHFj7PU4o401-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-19" value="6，发生响应数据包" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HU1uw2GbBHFj7PU4o401-18">
+          <mxGeometry x="0.3554" y="-3" relative="1" as="geometry">
+            <mxPoint x="33" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-5" value="服务器（Tomcat）" style="whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="25" width="210" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-14" value="3，解析 HTTP数据包请求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="70" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-15" value="4，执行请求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="110" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HU1uw2GbBHFj7PU4o401-15" target="HU1uw2GbBHFj7PU4o401-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-17" value="5，生成 HTTP 格式的数据包" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="148.75" width="180" height="22.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HU1uw2GbBHFj7PU4o401-20" target="HU1uw2GbBHFj7PU4o401-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-22" value="8，将数据呈现给用户" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HU1uw2GbBHFj7PU4o401-21">
+          <mxGeometry x="0.1266" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HU1uw2GbBHFj7PU4o401-20" value="7，解析 HTTP 格式的响应包" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="147.5" width="90" height="41.25" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
