@@ -1,17 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T15:57:39.685Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="rHLMAq5NNDIfwLDr6c90" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T16:11:14.916Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="h4Z43CtltcRpk6_Bss7A" version="21.6.6" type="github">
   <diagram name="第 1 页" id="TM-HLCVkLNd0_PabtGB0">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fqZ8BxOmCguqNVxPZHfv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-3">
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-3" target="fqZ8BxOmCguqNVxPZHfv-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="fqZ8BxOmCguqNVxPZHfv-2" value="err count++" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-1">
-          <mxGeometry x="-0.0706" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fqZ8BxOmCguqNVxPZHfv-3" value="wmsvr" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -39,18 +34,13 @@
         <mxCell id="fqZ8BxOmCguqNVxPZHfv-8" value="...(重复 n 次)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="250" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fqZ8BxOmCguqNVxPZHfv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-10">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="410" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="fqZ8BxOmCguqNVxPZHfv-10" value="wmsvr" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="360" y="240" width="140" height="50" as="geometry" />
+          <mxGeometry x="360" y="440" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="fqZ8BxOmCguqNVxPZHfv-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fqZ8BxOmCguqNVxPZHfv-10">
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fqZ8BxOmCguqNVxPZHfv-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="430" y="120" as="sourcePoint" />
-            <mxPoint x="760" y="420" as="targetPoint" />
+            <mxPoint x="430" y="80" as="sourcePoint" />
+            <mxPoint x="430" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="fqZ8BxOmCguqNVxPZHfv-12" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-11">
@@ -58,10 +48,80 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fqZ8BxOmCguqNVxPZHfv-13" value="输入密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-11">
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-13" value="输入密码&lt;br&gt;errCount &amp;gt;= limit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-11">
           <mxGeometry x="-0.1" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-17" value="err count++" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-16">
+          <mxGeometry x="-0.2057" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-14" value="wmsvr plugin(after)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="70" y="330" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-19" target="fqZ8BxOmCguqNVxPZHfv-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-27" value="FA_NEED_VERIFY_CELL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-26">
+          <mxGeometry x="-0.15" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-19" value="plugin(before)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-23" target="fqZ8BxOmCguqNVxPZHfv-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-29" value="sms:authSendValidCode 发送短信验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-28">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-23" value="webmail" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#e1d5e7;sketch=1;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-36" value="若前面输入正确密码&lt;br&gt;登录成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-35">
+          <mxGeometry x="-0.1056" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-24" value="wmsvr" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="640" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-30" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="fqZ8BxOmCguqNVxPZHfv-32">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="90" as="sourcePoint" />
+            <mxPoint x="710" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-31" value="用户输入短信验证码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-30">
+          <mxGeometry x="-0.05" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fqZ8BxOmCguqNVxPZHfv-32" target="fqZ8BxOmCguqNVxPZHfv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-34" value="校验通过" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fqZ8BxOmCguqNVxPZHfv-33">
+          <mxGeometry x="0.0286" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fqZ8BxOmCguqNVxPZHfv-32" value="plugin(before)" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="640" y="160" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
